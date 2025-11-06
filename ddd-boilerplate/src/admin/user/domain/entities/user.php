@@ -18,4 +18,12 @@ class User {
         $this->email = $email;
     }
 
+    public function name(): UserName
+    {
+        return $this->name;
+    }
+    public function email(): UserEmail
+    {
+        return $this->email;
+    }
 };
