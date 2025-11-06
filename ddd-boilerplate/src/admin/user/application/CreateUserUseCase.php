@@ -17,7 +17,7 @@ class CreateUserUseCase
         $this->userRepository = $userRepository;
     }
 
-    public function execute(int $id, string $name, string $email): void // Es buena práctica declarar el retorno
+    public function execute(int $id, string $name, string $email)
     {
         // 1. Crear Value Objects (Validación implícita)
         $nameValueObject = new UserName($name);

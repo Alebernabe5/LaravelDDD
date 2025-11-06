@@ -4,7 +4,7 @@ namespace Src\admin\user\infrastructure\validators;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ExampleValidatorRequest extends FormRequest
+class CreateUserRequest extends FormRequest
 {
 public function authorize()
 {
@@ -14,7 +14,9 @@ return true;
 public function rules()
 {
 return [
-'field' => 'nullable|max:255'
+    'id' =>'required',
+'username' => 'required|max:255|min:3',
+'email' => 'required|email|max:255|min:3'
 ];
 }
 
