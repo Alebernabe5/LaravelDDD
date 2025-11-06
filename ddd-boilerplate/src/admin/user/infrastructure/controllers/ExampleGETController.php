@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\platform\purchase\infrastructure\controllers;
+namespace Src\admin\user\infrastructure\controllers;
 
 use App\Http\Controllers\Controller;
 

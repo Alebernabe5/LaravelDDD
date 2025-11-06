@@ -1,6 +1,6 @@
 <?php
 
-//use Src\platform\purchase\infrastructure\controllers\ExampleGETController;
+//use Src\admin\user\infrastructure\controllers\ExampleGETController;
 
 // Simpele route example
 // Route::get('/', [ExampleGETController::class, 'index']);
